@@ -1,0 +1,91 @@
+body {
+  background-color: rgb(200, 200, 200);
+  font-family     : sans-serif;
+  margin          : 0;
+}
+
+.form {
+  margin-top: 100px;
+}
+
+.commands_bar {
+  height: 40px;
+  width : 30%;
+  margin-left: 10%;
+}
+
+.commands_bar p {
+  color: rgb(255, 102, 102);
+  position: relative;
+  display : inline;
+  text-shadow: 3px 3px 3px rgb(106, 105, 105);
+}
+
+#cmds {
+  position     : relative;
+  font-size    : 1.0em;
+  height       : 85%;
+  width        : 50%;
+  padding-left : 10px;
+  border-radius: 20px 5px;
+  border       : 2px solid rgb(255, 102, 102);
+}
+
+.button {
+  position        : relative;
+  background-color: rgb(255, 102, 102);
+  font-size       : 1.0em;
+  height          : 100%;
+  width           : 60px;
+  margin          : 0 2px;
+  border-radius   : 20px 5px;
+  border          : 1px solid rgb(255, 102, 102);
+  cursor          : pointer;
+  box-shadow: 3px 3px 10px rgb(106, 105, 105);
+  color: #fff;
+ }
+
+.img {
+   position: relative;
+   width: 900px;
+   float: right;
+   margin-right: 5%;
+ }
+
+@media screen and (max-width:1200px) {
+  .commands_bar {
+    width : 40%;
+    margin: auto;
+    margin-bottom: 200px;
+  }
+
+  .commands_bar p {
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    margin: 40px auto;
+  }
+
+  #cmds {
+    width        : 100%;
+  }
+
+  .button {
+    display: block;
+    margin: 40px auto;
+    box-shadow: 3px 3px 10px rgb(106, 105, 105);
+  }
+
+  .img {
+    width: 80%;
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+
+@media screen and (max-width:452px) {
+  .commands_bar {
+    margin-bottom: 250px;
+  }
+}
